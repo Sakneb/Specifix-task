@@ -5,6 +5,20 @@
 }
 
 .main {
-  padding: 30px;
+  padding: 32px;
   width: 100%;
+}
+
+.mainpage {
+  padding: 32px;
+}
+
+.main__container h1 {
+  font-size: 30px;
+}
+
+.line {
+  margin: 10px;
+  width: 70%;
+  border: 1px solid grey;
 }

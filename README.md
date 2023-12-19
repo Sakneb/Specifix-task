@@ -39,7 +39,7 @@ This web application is designed for surgeons to streamline patient management. 
 
 Once logged in, users are greeted with an organized layout featuring a header, sidebar, and main content area.
 
-The main view presents a comprehensive list of patients (cases), providing a clear overview. By clicking on a specific patient, surgeons are directed to a detailed view, showing patient information along a **.stl** file viewer. Patient data can be easily managed, either hardcoded within the source code or dynamically retrieved from external sources, offering flexibility in data management.
+The main view presents a comprehensive list of patients (cases), providing a clear overview. The STL file has been converted to PNG format for simple usage. Patient data can be easily managed, either hardcoded within the source code or dynamically retrieved from external sources, offering flexibility in data management.
 
 ## Technologies
 
@@ -56,7 +56,7 @@ At first, Node environment should be installed on your machine.
 
 **1. Clone the repository: \*\***git clone `https://github.com/Sakneb/Spesifix-task`\*\*
 
-2. Install dependencies **yarn**
+2. Install dependencies **`yarn`**
 3. Run **`yarn run build`** to build the project
 4. Run **`yarn run dev`** to start the server
 

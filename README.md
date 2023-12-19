@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Specifix Task
 
-## Getting Started
+This is a web application built with Next.js, Sass, and TypeScript. It includes features such as a login page, a main page, and a list of patients with individual patient information.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Project Structure
+- Usage
+- General info
+- Technologies
+- Prerequisites
+- Installation and Runnning
+- Future Developments
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `/components`: React components used throughout the application.
+- `/pages`: Next.js pages, representing different routes of the application.
+- `/public`: Public assets and static files.
+- `/styles`: Global style releated files.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+1. **Login**
+   Navigate to the login page (`/login`) and enter your credentials to log in.
+2. **Main Page**
+   The main page (`/mainpage`) displays a list of patients. Click on a patient's name to view detailed information.
+3. **Patient Details**
+   The patient details page displays information about the selected patient, including address, age, blood type, email, gender, and phone.
 
-To learn more about Next.js, take a look at the following resources:
+## General info
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This web application is designed for surgeons to streamline patient management. With a login page, surgeons can access the app, using a static username/password for demo purposes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Once logged in, users are greeted with an organized layout featuring a header, sidebar, and main content area.
 
-## Deploy on Vercel
+The main view presents a comprehensive list of patients (cases), providing a clear overview. By clicking on a specific patient, surgeons are directed to a detailed view, showing patient information along a `.stl` file viewer. Patient data can be easily managed, either hardcoded within the source code or dynamically retrieved from external sources, offering flexibility in data management.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project is created with:
+
+- Next.js (14)
+- Mockoon
+
+## Prerequisites
+
+At first, Node environment should be installed on your machine.
+
+### Installation and Runnning
+
+1. Clone the repository: **git clone `https://github.com/Sakneb/Spesifix-task`**
+2. Install dependencies `yarn`
+3. Run **`yarn run build`** to build the project
+4. Run **`yarn run dev`** to start the server
+
+### Future Developments
+
+**1.User Profiles and Customization:**
+
+- Create individual user profiles to allow surgeons to customize their experience.
+- Implement user preferences, such as theme selection or dashboard layout customization.
+
+**2.Advanced Search and Filters:**
+
+- Implement advanced search and filtering options for the list of patients. Allow surgeons to quickly find specific patients based on criteria such as name, age, or medical condition.
+
+**3.Interactive `.stl` Viewer:**
+
+- Add interactivity to the `.stl` viewer, allowing surgeons to manipulate and interact with 3D models.
+
+**4. Enhanced User Interface (UI):**
+
+- Invest time in refining the user interface for an optimal user experience. Consider modern design principles, responsive layouts, and intuitive navigation to make the application visually appealing and user-friendly.
+
+**5.Feedback Mechanism:**
+
+- Incorporate a feedback mechanism to gather user insights and improve the user experience continually.
+
+**6.Analytics and Reporting:**
+
+- Track how users, particularly surgeons, interact with the website. This includes monitoring which features are most frequently used, common navigation paths, and time spent on different sections.

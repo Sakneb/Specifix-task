@@ -5,21 +5,11 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function Login() {
-  const [username, setUsername] = useState(" ");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("user");
+  const [password, setPassword] = useState("12345678");
   const router = useRouter();
 
-  const validateLogin = () => {
-    if (username && password) {
-      alert("Login successful!");
-    } else {
-      alert("Please enter both email and password.");
-    }
-  };
-
   const handleClick = () => {
-    validateLogin();
-
     router.push("/mainpage");
   };
 
@@ -30,7 +20,7 @@ export default function Login() {
           priority
           src="/assets/logo.png"
           alt="Specifix Logo"
-          width={160}
+          width={165}
           height={120}
         />
       </div>
@@ -42,7 +32,7 @@ export default function Login() {
         </div>
         <form id="form_id" method="post" className={styles.input__container}>
           <div className={styles.login__form}>
-            <label htmlFor="email">Username</label>
+            <label htmlFor="username">Username</label>
             <input
               type="text"
               name="username"

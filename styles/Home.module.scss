@@ -1,7 +1,9 @@
 @import "../styles/variables";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
 .body {
   width: 100%;
+  font-family: "Inter", sans-serif;
 }
 
 .main {
@@ -9,16 +11,79 @@
   width: 100%;
 }
 
+.about {
+  padding: 70px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #4f9bd5;
+    font-family: "Inter", sans-serif;
+  }
+
+  p {
+    font-family: "Inter", sans-serif;
+    line-height: 2;
+    text-align: start;
+  }
+
+  .text {
+    max-width: 70%;
+  }
+}
+
 .mainpage {
   padding: 32px;
 }
 
-.main__container h1 {
-  font-size: 30px;
+.main__container {
+  padding-top: 30px;
+
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    color: #4f9bd5;
+  }
+}
+
+.listOfPatients {
+  background-color: #4f9bd51a;
+  padding: 25px;
+  width: 70%;
+  cursor: pointer;
+
+  li {
+    font-family: "Inter", sans-serif;
+    padding: 8px;
+    color: rgba(26, 26, 26, 0.877);
+  }
 }
 
 .line {
   margin: 10px;
   width: 70%;
   border: 1px solid grey;
+}
+
+.patient__data {
+  background-color: rgb(153 146 146 / 15%);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 15px;
+  gap: 12px;
+
+  .patient__image {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
 }

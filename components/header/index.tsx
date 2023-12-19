@@ -23,7 +23,7 @@ export default function Header() {
             <Link href="/about">About us</Link>
           </li>
           <li>
-            <Link href="#patients">Patients</Link>
+            <Link href="/mainpage#patients">Patients</Link>
           </li>
         </ul>
       </div>

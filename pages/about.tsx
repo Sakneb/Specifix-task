@@ -1,8 +1,10 @@
+import Header from "@/components/header";
 import styles from "@/styles/Home.module.scss";
 
 const About = () => {
   return (
     <div className={styles.about}>
+      <Header />
       <h1>Who We Are</h1>
       <div className={styles.text}>
         <p>

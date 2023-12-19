@@ -3,7 +3,6 @@
 
 .body {
   width: 100%;
-  font-family: "Inter", sans-serif;
 }
 
 .main {
@@ -12,7 +11,7 @@
 }
 
 .about {
-  padding: 70px;
+  padding: 32px;
   width: 100%;
   display: flex;
   align-self: center;
@@ -24,11 +23,9 @@
     font-size: 40px;
     font-weight: 700;
     color: #4f9bd5;
-    font-family: "Inter", sans-serif;
   }
 
   p {
-    font-family: "Inter", sans-serif;
     line-height: 2;
     text-align: start;
   }
